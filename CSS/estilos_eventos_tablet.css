@@ -1,0 +1,65 @@
+.eventos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+}
+
+.eventos h2 {
+    text-align: center;
+}
+
+.eventos img {
+    width: 95%;
+    height: auto;
+    max-width: 100%
+}
+
+h1 {
+    text-align: center;
+}
+
+.eventos1 {
+    text-align: center;
+}
+
+.form {
+    margin: auto;
+    width: 450px;
+    height: auto;
+    background-color: rgb(202, 202, 183);
+    color: rgb(202, 202, 183);
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+}
+
+.form fieldset, label {
+    background-color: rgb(202, 202, 183);
+}
+
+.form textarea, input {
+    background-color: rgb(161, 168, 146);
+}
+
+.form button {
+    margin-left: 44%;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(128, 141, 117);
+    border: 1px solid rgb(39, 66, 36);
+    border-radius: 1px;
+}
+
+.form textarea {
+    width: 412px;
+    height: 150px;
+}
+
+label, fieldset {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,45 @@
+.imagen {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    
+}
+
+.imagen img {
+    width: 80%;
+    height: auto;
+    max-width: 80%;
+     
+}
+
+.imagen figure{
+    margin: 0;
+    padding: 0;
+}
+
+.imagen h2 {
+    margin: 2%;
+    padding: 2%;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+    
+}
+
+.text2 {
+    text-align: center;
+}
+
+.logofooter img  {
+    width: 80%;
+    height: auto;
+    max-width: 80%;
+}
+
+.logomenu img{
+    width: 80%;
+    height: auto;
+}

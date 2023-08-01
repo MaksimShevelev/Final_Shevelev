@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Shevelev</title>
+    <link rel="stylesheet" href="CSS/estilos_general.css" />
+    <link rel="stylesheet" href="CSS/estilos_total_eventos.css" />
+</head>
+<header>
+    <div class="logomenu">
+        <div>
+            <figure>
+                <a href="index.html"><img src="Img/logo_verde.png" alt="Logo_de_EL_Ferroviario" width="200px"
+                        height="150px"></a>
+            </figure>
+        </div>
+        <div>
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<body>
+    <main>
+        <h1>Nuestros eventos</h1>
+        <div class="eventos">
+            <div>
+                <h2>20/06/2023</h2>
+                <figure>
+                    <img src="Img/eventos/campeonato.jpg" alt="campeonato">
+                </figure>
+            </div>
+            <div>
+                <h2>Campeonato de Asado.</h2>
+                <p>Chefs invitados de las provincias
+                    de Córdoba, Entre Ríos y San
+                    Luis prepararán asado según su
+                    receta. Los miembros del jurado
+                    son nuestros invitados. </p>
+                <p>Como siempre la música en vivo
+                    complementará y decorará su
+                    maravillosa cena.</p>
+            </div>
+        </div>
+        <div class="eventos">
+            <div>
+                <h2>18/06/2023</h2>
+                <figure>
+                    <img src="Img/eventos/padre.gif" alt="padre">
+                </figure>
+            </div>
+            <div>
+                <h2>Día del padre. </h2>
+                <p>Esta noche, todos los invitados
+                    encontrarán un menú especial de
+                    nuestro chef. La música en vivo
+                    complementará y decorará su
+                    maravillosa cena. </p>
+                <p>Además, el padre de cada familia
+                    tendrá una grata sorpresa y un
+                    20% de descuento en el cheque.</p>
+            </div>
+        </div>
+        <div class="eventos1">
+            <button><a href="#">Ver más</a></button>
+            <h3>¡Haz una reserva!</h3>
+            <p>Días y horarios de atención:
+
+                de Martes a Domingo
+                de 12:00 a 16:00
+                de 20:00 a 0:30</p>
+        </div>
+        <div class="form">
+            <form action="reserva.php" method="get">
+                <fieldset>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" name="nombre" />
+                </fieldset>
+                <fieldset>
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" type="text" name="apellido" />
+                </fieldset>
+                <fieldset>
+                    <label for="number">Telefono</label>
+                    <input id="number" type="number" name="number" />
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" />
+                </fieldset>
+                <fieldset>
+                    <label for="comentario">Mensaje</label>
+                    <textarea id="comentario" cols="40" rows="10" name="comentario"
+                        placeholder="Escribe algo..."></textarea>
+                </fieldset>
+                <fieldset>
+                    <button type="submit">Enviar</button>
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+<footer>
+    <figure class="logofooter">
+        <a href="index.html"><img src="Img/logo.png" alt="logo" width="500px" height="100px"></a>
+    </figure>
+    <div class="logofooter2">
+        <figure>
+            <a href="https://www.facebook.com/"><img src="Img/facebook.png" alt="facebook" width="50px"
+                    height="50px"></a>
+        </figure>
+        <figure>
+            <a href="https://www.instagram.com/"><img src="Img/instagram.png" alt="instagram" width="50px"
+                    height="50px"></a>
+        </figure>
+        <figure>
+            <a href="https://telegram.org/a/"><img src="Img/telegram.png" alt="telegram" width="50px" height="50px"></a>
+        </figure>
+        <figure>
+            <a href="https://www.whatsapp.com/"><img src="Img/watsap.png" alt="whatsapp" width="50px" height="50px"></a>
+        </figure>
+    </div>
+    <div class="logofooter">
+        <p>©2023 El Ferroviario Parrilla</p>
+        <p>byShevelevMaxim</p>
+    </div>
+</footer>
+</body>
+
+</html>

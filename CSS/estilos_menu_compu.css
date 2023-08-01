@@ -1,0 +1,48 @@
+.block {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 30px;
+    text-align: center;
+    
+}
+
+
+.block img {
+    width: 100%;
+    height: auto;
+    max-width: 100%
+}
+
+
+.block figure {
+    border: 7px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.blockdelivery figure{
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.block5 figure {
+    display: inline-block;
+  }
+  
+.blockdelivery img {
+    width: 100%;
+    height: auto;
+    max-width: 100%
+  }
+  
+.blockdelivery {
+    text-align: center;
+  }
+
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+h3 {
+    text-align: center;
+}
+
+.reseña1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0px;
+}
+
+.reseña3 {
+    margin-left: 20px;
+}
+
+
+.reseña2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0px;
+}
+
+.reseña2 figure {
+    margin-left: 30%;
+}
+
+.reseña2 img,
+.reseña1 img {
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    max-width: 100%
+}
+
+.button1 {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.button2 {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.baja2 {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    margin: 35px;
+    padding: 35px;
+}
+
+.baja3 {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    margin: 35px;
+    padding: 35px;
+}
+
+.baja1 {
+    text-align: center;
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0px;
+}
+
+.logofooter img  {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+}
+
+.logomenu img{
+    width: 80%;
+    height: auto;
+}

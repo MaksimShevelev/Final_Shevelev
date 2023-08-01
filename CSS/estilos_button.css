@@ -1,0 +1,25 @@
+nav ul li {
+    display: inline-block;
+    color: rgb(39, 66, 36);
+    margin: 20px;
+    margin-right: 100px; 
+}
+
+nav ul li:last-child {
+margin-right: 0; 
+}
+
+
+nav ul li a:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(39, 66, 36);
+    padding: 6px;
+    border: 5px solid rgb(39, 66, 36) ;
+    border-radius: 100px;
+  }
+
+.logomenu {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 50px;
+}

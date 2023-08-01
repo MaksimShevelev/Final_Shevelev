@@ -1,0 +1,52 @@
+.block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+    text-align: center;
+}
+
+.block p {
+    margin: 0;
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    max-width: 100%
+}
+
+
+.block figure {
+    border: 7px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    width: 90%;
+    height: auto;
+}
+
+.blockdelivery figure{
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    height: auto;
+}
+
+.block5 figure {
+    display: inline-block;
+  }
+  
+.blockdelivery img {
+    width: 100%;
+    height: auto;
+    max-width: 100%
+  }
+  
+.blockdelivery {
+    text-align: center;
+  }
+
+
+h1 {
+    text-align: center;
+}

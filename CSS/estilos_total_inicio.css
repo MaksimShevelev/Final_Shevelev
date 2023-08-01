@@ -1,0 +1,12 @@
+@import url('estilo_general.css');
+
+
+@import url('estilos_inicio_compu.css') screen and (min-width: 1024px);
+
+@import url('estilos_button.css') screen and (min-width: 769px);
+
+@import url('estilos_inicio_tablet.css') screen and (min-width: 768px) and (max-width: 1023px);
+
+@import url('estilos_button_burger.css') screen and (max-width: 768px);
+
+@import url('estilos_inicio_movil.css') screen and (min-width: 320px) and (max-width: 767px);

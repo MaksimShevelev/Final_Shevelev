@@ -1,0 +1,66 @@
+h3 {
+    text-align: center;
+}
+
+.reseña1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0px;
+}
+
+.reseña3 {
+    margin-left: 20px;
+}
+
+
+.reseña2 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0px;
+}
+
+.reseña2 figure {
+    margin-left: 30%;
+}
+
+.reseña2 img,
+.reseña1 img {
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    max-width: 100%
+}
+
+.button1 {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.button2 {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.baja {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+}
+
+.baja1 {
+    text-align: center;
+    border: 5px solid rgb(39, 66, 36);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0px;
+}
+
